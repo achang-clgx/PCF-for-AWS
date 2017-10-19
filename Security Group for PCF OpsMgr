@@ -1,9 +1,0 @@
-Assumption: PCF use 10.0.0.0/16
-
-
-Type	        Protocol	Port Range	Source
-HTTP	        TCP	      80	        My IP
-HTTPS	        TCP	      443	        My IP
-SSH	          TCP	      22	        My IP
-BOSH Agent	  TCP	      6868	      10.0.0.0/16
-BOSH Director	TCP	      25555	      10.0.0.0/16
