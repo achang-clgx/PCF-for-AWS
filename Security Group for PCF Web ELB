@@ -2,7 +2,9 @@ Note: You can change the 0.0.0.0/0 to be more restrictive if you want finer cont
 over what can reach the Elastic Runtime. This security group governs external access to
 the Elastic Runtime from applications such as the cf CLI and application URLs.
 
-Type	Protocol	Port Range	Source
-Custom TCP rule	TCP	4443	Anywhere	0.0.0.0/0
-HTTP	TCP	80	Anywhere	0.0.0.0/0
-HTTPS	TCP	443	Anywhere	0.0.0.0/0
+### Table
+Type | Protocol | Port Range | Source
+---- | -------- | ---------- | --------
+Custom TCP rule | TCP | 4443 | Anywhere	0.0.0.0/0
+HTTP | TCP | 80 | Anywhere	0.0.0.0/0
+HTTPS |	TCP | 443 |	Anywhere	0.0.0.0/0
