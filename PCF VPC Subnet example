@@ -1,0 +1,16 @@
+
+|Name|	AZ|	IPv4 |CIDR block|
+|----|----|----|----|
+|pcf-public-subnet-az1|	REGION-#b| (for example, us-west-2b)	10.0.1.0/24|
+pcf-public-subnet-az2	REGION-#c (for example, us-west-2c)	10.0.2.0/24
+pcf-management-subnet-az1	REGION-#b (for example, us-west-2b)	10.0.16.16/28
+pcf-management-subnet-az2	REGION-#c (for example, us-west-2c)	10.0.16.32/28
+pcf-ert-subnet-az0	REGION-#a (for example, us-west-2a)	10.0.4.0/24
+pcf-ert-subnet-az1	REGION-#b (for example, us-west-2b)	10.0.5.0/24
+pcf-ert-subnet-az2	REGION-#c (for example, us-west-2c)	10.0.6.0/24
+pcf-services-subnet-az0	REGION-#a (for example, us-west-2a)	10.0.8.0/24
+pcf-services-subnet-az1	REGION-#b (for example, us-west-2b)	10.0.9.0/24
+pcf-services-subnet-az2	REGION-#c (for example, us-west-2c)	10.0.10.0/24
+pcf-rds-subnet-az0	REGION-#a (for example, us-west-2a)	10.0.12.0/24
+pcf-rds-subnet-az1	REGION-#b (for example, us-west-2b)	10.0.13.0/24
+pcf-rds-subnet-az2	REGION-#c (for example, us-west-2c)	10.0.14.0/24
